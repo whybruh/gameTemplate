@@ -12,10 +12,11 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/scary1.gif')");
 		$("#goRight-Straight1").hide();
 		$("#goRight-Straight2").show();
+		$("background-image", "url('img/game.png"3).hide();
 	});
 
 	$("#goRight-Straight2").click(function() {
-		$("#exploreBody").css("background-image", "url('img/exploreRight3.jpg')");
+		$("#exploreBody").css("background-image", "url('img/scary1.png')");
 		$("#goRight-Straight2").hide();
 		$("#goRight-Straight3").show();
 	});
