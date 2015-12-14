@@ -12,7 +12,7 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/scary1.gif')");
 		$("#goRight-Straight1").hide();
 		$("#goRight-Straight2").show();
-		$("background-image", "url('img/game.png"3).hide();
+		$("background-image", "url('img/game.png").hide();
 	});
 
 	$("#goRight-Straight2").click(function() {
