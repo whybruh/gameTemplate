@@ -1,6 +1,6 @@
 body {
 
-	background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/11/Game-Backgrounds-Wallpaper.jpg");
+	background-image: url("http://resultncutoff.in/wp-content/uploads/2015/03/maths-ftr.jpg");
     background-size: cover;
     background-position: center center;
 	font-family: monospace;
@@ -36,11 +36,10 @@ body {
   }
 
 
-
 /*Stuff below governs the Explore screen*/
 
 #exploreBody {
-	background-image: url("img/exploreHome1.jpg");
+	background-image: url("img/one.png");
 	background-position: bottom center;
 
 }
@@ -50,7 +49,7 @@ body {
 	color: white;
 	position: absolute;
     padding: 20px 10px;
-    color: white;
+    color: black;
     font-size: 6em;
     box-shadow: 5px 5px 20px #84999A;
 
@@ -68,83 +67,32 @@ body {
     display: block;
 }
 
-#goRight-Straight1 {
-    bottom: 25%;
-    left: 45%;
+#goLeft2 {
+    left: 40px;
+    top: 40%;
     display: none;
 }
 
-#goLeft-Straight1 {
-    bottom: 25%;
-    left: 45%;
-    display: none;
-}
-
-#goRight-Straight2 {
-    bottom: 25%;
-    left: 45%;
-    display: none;
-}
-
-#goLeft-Straight2 {
-    bottom: 25%;
-    left: 45%;
-    display: none;
-}
-
-#goRight-Right2 {
+#goRight2 {
     right: 40px;
     top: 40%;
     display: none;
 }
 
-#goLeft-Straight3 {
-    bottom: 25%;
-    left: 45%;
+#goLeft3 {
+    left: 45px;
+    top: 40%;
     display: none;
 }
 
-#goBack {
-    bottom: 25%;
-    left: 45%;
+#goRight3 {
+    right: 45px;
+    top: 40%;
     display: none;
 }
 
-
-.hudBase {
-    background-color: rgba(0,0,0,0.7);
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    color: white;
-    padding: 10px 30px;
-}
-
-.hudInv {
-    width: 50%;
-    display: inline-block;
-    margin-left: 10%;
-    color: #bbb;
-}
-
-.hudObj {
-    width: 35%;
-    display: inline-block;
-    padding: 10px;
-}
-
-#invTitle {
-display: inline;
-
-}
-
-.invSlot1 {
-	display: inline;
-	width: 80px;
-	height: 80px;
-	border: 5px dashed #bbb;
-	padding: 10px 10px;
-    margin: 20px;
-    font-size:0.6em;
+#goStraight1 {
+    bottom: 25%;
+    left: 45%;
+    display: none;
 }
