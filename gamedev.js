@@ -11,6 +11,14 @@ $( document ).ready(function() {
 		$("#exploreBody").css("background-image", "url('img/troll.png')");
 		$("#goRight1").hide();
 		$("#goLeft1").hide();
+		$("#goBack").show();
+	});
+
+	$("#goBack").click(function() {
+		$("#exploreBody").css("background-image", "url('img/two.jpg')");
+		$("#goBack").hide();
+		$("#goRight2").show();
+		$("#goLeft2").show();
 	});
 
 	$("#goRight2").click(function() {
@@ -19,6 +27,7 @@ $( document ).ready(function() {
 		$("#goRight2").hide();
 		$("#goLeft1").hide();
 		$("#goLeft2").hide();
+		$("#goBack").show();
 	});
 
 	$("#goLeft2").click(function() {
